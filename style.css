@@ -1,0 +1,57 @@
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+}
+
+
+
+.book-card {
+    background-color: #fff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  #new-book-form-container {
+    display: flex;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    align-content: center;
+    background-color: #fff;
+    height:200px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+h1 {
+  color:rgb(7, 83, 48);
+}
+
+#new-book-btn {
+  background-color: rgb(167, 182, 165);
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Cinzel Decorative', cursive;
+  
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  
+}
